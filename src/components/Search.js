@@ -46,7 +46,7 @@ class Search extends React.Component {
               {
                 this.props.searched.map(elem => 
                 <li key={elem.id} className='search-item'>
-                    <Link onClick={::this.handleClick} to={'/movie/' + elem.id}>
+                    <Link to={'/movie/' + elem.id}>
                       {elem.title}
                     </Link>  
                 </li>)
