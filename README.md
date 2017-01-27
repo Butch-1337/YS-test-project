@@ -6,6 +6,10 @@ __Clone this repository:__
 
 `git clone <this repository>`
 
+__Move to project directory:__
+
+`cd YS-test-project`
+
 __Install the dependencies:__
 
 `npm i`
